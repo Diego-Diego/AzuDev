@@ -1,0 +1,38 @@
+
+================================================================
+======== txAdmin Starting - 15/05/2023, 15:56:32                
+================================================================
+[15:56:58][Diego_Haubois] created admins file
+[15:57:01][Diego_Haubois] logged in from 127.0.0.1 via password
+[15:57:09][Diego_Haubois] Changing global settings via setup stepper and started Deployer.
+[15:57:11][Diego_Haubois] Setting recipe.
+[15:57:34][Diego_Haubois] Running recipe.
+[15:58:24][Diego_Haubois] Completed and committed server deploy.
+[15:59:42][Diego_Haubois] executed "RESTART SERVER"
+
+================================================================
+======== txAdmin Starting - 15/05/2023, 16:00:48                
+================================================================
+[16:01:29][Diego_Haubois] logged in from 127.0.0.1 via password
+[16:01:42][Diego_Haubois] Changing global settings.
+[16:01:50][Diego_Haubois] Changing global settings.
+[16:02:10][Diego_Haubois] Changing global settings.
+[16:02:49][Diego_Haubois] Changing fxRunner settings.
+[16:02:58][Diego_Haubois] Changing global settings.
+[16:03:44][Diego_Haubois] executed "RESTART SERVER"
+[16:04:16][Diego_Haubois] logged in via in-game ui
+[16:59:46][Diego_Haubois] executed "RESTART SERVER"
+[17:00:23][Diego_Haubois] logged in via in-game ui
+[17:19:51][Diego_Haubois] executed "RESTART SERVER"
+[17:20:31][Diego_Haubois] logged in via in-game ui
+[17:40:00][Diego_Haubois] executed "RESTART SERVER"
+[17:40:47][Diego_Haubois] logged in via in-game ui
+[17:42:57][Diego_Haubois] executed "RESTART SERVER"
+[21:48:01][Diego_Haubois] executed "RESTART SERVER"
+[21:49:32][Diego_Haubois] logged in via in-game ui
+[21:57:50][Diego_Haubois] executed "RESTART SERVER"
+[21:58:36][Diego_Haubois] logged in via in-game ui
+[22:13:13][Diego_Haubois] executed "RESTART SERVER"
+[22:13:59][Diego_Haubois] logged in via in-game ui
+[22:46:13][Diego_Haubois] executed "RESTART SERVER"
+[22:47:14][Diego_Haubois] logged in via in-game ui

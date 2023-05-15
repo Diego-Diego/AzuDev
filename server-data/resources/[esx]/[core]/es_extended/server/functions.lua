@@ -272,13 +272,13 @@ function ESX.DiscordLog(name, title, color, message)
       ['title'] = title,
       ['color'] = Config.DiscordLogs.Colors[color] or Config.DiscordLogs.Colors.default,
       ['footer'] = {
-          ['text'] = "| ESX Logs | " .. os.date(),
-          ['icon_url'] = "https://cdn.discordapp.com/attachments/944789399852417096/1020099828266586193/blanc-800x800.png"
+          ['text'] = "| SkyLand Logs | " .. os.date(),
+          ['icon_url'] = "https://cdn.discordapp.com/attachments/1107688080602845346/1107688130104021002/logo.png"
       },
       ['description'] = message,
       ['author'] = {
-          ['name'] = "ESX Framework",
-          ['icon_url'] = "https://cdn.discordapp.com/emojis/939245183621558362.webp?size=128&quality=lossless"
+          ['name'] = "SkyLand FA",
+          ['icon_url'] = "https://cdn.discordapp.com/attachments/1107688080602845346/1107688130104021002/logo.png"
       }
   }}
   PerformHttpRequest(webHook, nil, 'POST', json.encode({
@@ -295,14 +295,14 @@ function ESX.DiscordLogFields(name, title, color, fields)
       ['title'] = title,
       ['color'] = Config.DiscordLogs.Colors[color] or Config.DiscordLogs.Colors.default,
       ['footer'] = {
-          ['text'] = "| ESX Logs | " .. os.date(),
-          ['icon_url'] = "https://cdn.discordapp.com/attachments/944789399852417096/1020099828266586193/blanc-800x800.png"
+          ['text'] = "| SkyLand Logs | " .. os.date(),
+          ['icon_url'] = "https://cdn.discordapp.com/attachments/1107688080602845346/1107688130104021002/logo.png"
       },
       ['fields'] = fields, 
       ['description'] = "",
       ['author'] = {
-          ['name'] = "ESX Framework",
-          ['icon_url'] = "https://cdn.discordapp.com/emojis/939245183621558362.webp?size=128&quality=lossless"
+          ['name'] = "SkyLand FA",
+          ['icon_url'] = "https://cdn.discordapp.com/attachments/1107688080602845346/1107688130104021002/logo.png"
       }
   }}
   PerformHttpRequest(webHook, nil, 'POST', json.encode({

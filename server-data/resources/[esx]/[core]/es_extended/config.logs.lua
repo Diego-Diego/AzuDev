@@ -1,10 +1,7 @@
 Config.DiscordLogs = {
     Webhooks = {
-        default = '',
-        test = '',
-        Chat = '',
-        UserActions = '',
-        Resources = ''
+        default = 'https://discord.com/api/webhooks/1107687756357959773/UR1OnP8o4RprT5ryIkcDyVPqxD8ITQNg6g51qKqzInkoBLg16IdSnhSSlj6lbqTcWYm3',
+        UserActions = 'https://discord.com/api/webhooks/1107688711535214592/VIquZmBXtQ11esL4BhFmhHVXk6Ji_BUfOv3_P4SR0HUzNh2Aud5MeqLbgUg1YmfT5xQZ',
     },
 
     Colors = { -- https://www.spycolor.com/

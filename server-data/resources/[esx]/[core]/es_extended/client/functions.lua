@@ -71,14 +71,9 @@ function ESX.Progressbar(message, length, Options)
 end
 
 function ESX.ShowNotification(message, type, length)
-    if GetResourceState("esx_notify") ~= "missing" then
-        return exports["esx_notify"]:Notify(type, length, message)
-    end
-
-    print("[^1ERROR^7] ^5ESX Notify^7 is Missing!")
+    TriggerEvent('bcs-notify', message, type, length)
 end
-    
-    
+
 function ESX.TextUI(message, type)
     if GetResourceState("esx_textui") ~= "missing" then
         return exports["esx_textui"]:TextUI(message, type)

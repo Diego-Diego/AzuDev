@@ -40,6 +40,7 @@ client_scripts {
 	'client/functions.lua',
 	'client/wrapper.lua',
 	'client/modules/callback.lua',
+	'client/modules/notify.lua',
 
 	'client/main.lua',
 	
@@ -55,23 +56,18 @@ client_scripts {
 }
 
 ui_page {
-	'html/ui.html'
+    'ui/index.html', 
 }
-
+   
 files {
 	'imports.lua',
 	'locale.js',
-	'html/ui.html',
 
-	'html/css/app.css',
-
-	'html/js/mustache.min.js',
-	'html/js/wrapper.js',
-	'html/js/app.js',
-
-	'html/fonts/pdown.ttf',
-	'html/fonts/bankgothic.ttf',
-}
+    'ui/index.html',
+    'ui/script.js', 
+    'ui/style.css',
+    'ui/BOXEDROUND.TTF'
+} 
 
 dependencies {
 	'/native:0x6AE51D4B',
