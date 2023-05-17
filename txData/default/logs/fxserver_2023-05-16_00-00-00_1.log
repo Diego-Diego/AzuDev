@@ -1,0 +1,1511 @@
+
+================================================================
+======== Log Rotated - 16/05/2023, 00:00:00                     
+================================================================
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] [0mServer list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂Diego_Haubois＂,＂message＂:＂Le serveur redémarre (requested by Diego_Haubois).＂}"
+[      script:monitor] [0mServer shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 16/05/2023, 00:18:05               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[           resources] Scanning resources.
+[           resources] Found 42 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 5.2.0 starting...
+[           resources] Started resource monitor
+[ citizen-server-impl] [97mCould not open logo.png for reading.
+[    c-scripting-core] [0mCreating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] [0mCreating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for rconlog
+[           resources] Started resource rconlog
+[    c-scripting-core] [97mCreating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] [97mCreating script environments for ox_lib
+[           resources] Started resource ox_lib
+[           resources] Started resource spawnmanager
+[    c-scripting-core] [0mCreating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for ox_target
+[           resources] Started resource ox_target
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[    c-scripting-core] [0mCreating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] [97mStarted resource esx_context
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] [97mCreating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] [0mStarted resource esx_textui
+[    c-scripting-core] Creating script environments for skl_core
+[  resources:skl_core] Warning: could not find client_script `client/scripts/**/*.lua` (defined in fxmanifest.lua:18)
+[           resources] Started resource skl_core (1 warning)
+[    c-scripting-core] [0mCreating script environments for skl_jobs
+[           resources] Started resource skl_jobs
+[           resources] Started resource loadscreen_crystal
+[    c-scripting-core] Creating script environments for ds-mdt
+[           resources] [0mStarted resource ds-mdt
+[    c-scripting-core] Creating script environments for interact-sound
+[           resources] Started resource interact-sound
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] [0mCreating script environments for rp-radio
+[           resources] Started resource rp-radio
+[    c-scripting-core] Creating script environments for ox_doorlock
+[           resources] Started resource ox_doorlock
+[    c-scripting-core] [0mCreating script environments for ox_fuel
+[           resources] [0mStarted resource ox_fuel
+[resources:LosSantosC] Asset LosSantosCustoms/ajaxon_burton_lsc.ytd uses 45.0 MiB of physical memory.
+[resources:LosSantosC] Asset LosSantosCustoms/bt1_02_build.ytd uses 25.1 MiB of physical memory.
+[           resources] Started resource LosSantosCustoms (2 warnings)
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_davispd_txd.ytd uses 18.0 MiB of physical memory.
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_pdprops01_txd.ytd uses 27.5 MiB of physical memory.
+[           resources] Started resource cfx-gabz-davispd (2 warnings)
+[           resources] Started resource int_hotdogs
+[           resources] Started resource vitrine
+[           resources] Started resource vitrine2
+[      script:oxmysql] Database server connection established!
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://diego-haubois-ajevek.users.cfx.re/
+[  script:es_extended] [0m[INFO] ESX Legacy 1.9.4 initialized!
+[ script:ox_inventory] [info] Inventory has loaded 219 items
+[      script:hardcap] Connecting: [OFF 2- 31] - Diego Johnson
+[       script:ds-mdt] Deleted Expired Warrants0
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Player "Kevin Miller" has connected to the server. ID: 1
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/inventory/server.lua:732: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SELECT plate, glovebox FROM `owned_vehicles` WHERE `plate` = ?
+[ script:ox_inventory] > callbackResponse (@ox_lib/callback/server.lua:60)
+[ script:ox_inventory] > handler (@ox_lib/callback/server.lua:76)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:22053)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] 
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 433.0985ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"black_money\":0,\"bank\":55600,\"money\":0}","unemployed",0,"admin","{\"y\":-101.8945083618164,\"z\":39.002197265625,\"heading\":189.9212646484375,\"x\":-333.4945068359375}","[{\"name\":\"tablet\",\"slot\":1,\"count\":1}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 420.7219ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"black_money\":0,\"bank\":56000,\"money\":0}","unemployed",0,"admin","{\"y\":-101.68351745605469,\"z\":39.002197265625,\"heading\":238.1102294921875,\"x\":-334.6681213378906}","[{\"name\":\"tablet\",\"slot\":1,\"count\":1}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] server thread hitch warning: timer interval of 190 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 220 items
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 220 items
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 220 items
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 438.6354ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"black_money\":0,\"bank\":56200,\"money\":0}","unemployed",0,"admin","{\"y\":-102.18461608886719,\"z\":39.002197265625,\"heading\":150.23622131347657,\"x\":-336.71209716796877}","[{\"name\":\"tablet\",\"slot\":1,\"count\":1},{\"name\":\"WEAPON_PISTOL\",\"count\":1,\"slot\":2,\"metadata\":{\"registered\":\"Kevin Miller\",\"durability\":99.60000000000002,\"serial\":\"288606LKX297025\",\"ammo\":6,\"components\":[]}},{\"name\":\"ammo-9\",\"slot\":3,\"count\":10},{\"name\":\"carglass\",\"slot\":4,\"count\":1}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] server thread hitch warning: timer interval of 161 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 221 items
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 428.8598ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"black_money\":0,\"bank\":56600,\"money\":0}","unemployed",0,"admin","{\"y\":-105.37582397460938,\"z\":39.002197265625,\"heading\":218.26771545410157,\"x\":-333.77142333984377}","[{\"name\":\"tablet\",\"slot\":1,\"count\":1},{\"name\":\"WEAPON_PISTOL\",\"count\":1,\"slot\":2,\"metadata\":{\"registered\":\"Kevin Miller\",\"components\":[],\"serial\":\"288606LKX297025\",\"ammo\":6,\"durability\":99.60000000000002}},{\"name\":\"ammo-9\",\"slot\":3,\"count\":10},{\"name\":\"tire\",\"slot\":4,\"count\":2}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved player "Kevin Miller"
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂Diego_Haubois＂,＂message＂:＂Le serveur redémarre (requested by Diego_Haubois).＂}"
+[      script:monitor] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 16/05/2023, 01:07:22               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[           resources] Scanning resources.
+[           resources] Found 42 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[38;5;161m[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[38;5;161m[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 5.2.0 starting...
+[           resources] [0mStarted resource monitor
+[ citizen-server-impl] Could not open logo.png for reading.
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] [0mCreating script environments for rconlog
+[           resources] Started resource rconlog
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[           resources] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for ox_target
+[           resources] Started resource ox_target
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[    c-scripting-core] Creating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[           resources] [0mStarted resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for skl_core
+[  resources:skl_core] Warning: could not find client_script `client/scripts/**/*.lua` (defined in fxmanifest.lua:18)
+[           resources] Started resource skl_core (1 warning)
+[    c-scripting-core] Creating script environments for skl_jobs
+[           resources] Started resource skl_jobs
+[           resources] Started resource loadscreen_crystal
+[    c-scripting-core] Creating script environments for ds-mdt
+[           resources] [0mStarted resource ds-mdt
+[    c-scripting-core] Creating script environments for interact-sound
+[           resources] Started resource interact-sound
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for rp-radio
+[           resources] [0mStarted resource rp-radio
+[    c-scripting-core] Creating script environments for ox_doorlock
+[           resources] Started resource ox_doorlock
+[    c-scripting-core] Creating script environments for ox_fuel
+[           resources] Started resource ox_fuel
+[resources:LosSantosC] Asset LosSantosCustoms/ajaxon_burton_lsc.ytd uses 45.0 MiB of physical memory.
+[resources:LosSantosC] Asset LosSantosCustoms/bt1_02_build.ytd uses 25.1 MiB of physical memory.
+[           resources] Started resource LosSantosCustoms (2 warnings)
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_davispd_txd.ytd uses 18.0 MiB of physical memory.
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_pdprops01_txd.ytd uses 27.5 MiB of physical memory.
+[           resources] Started resource cfx-gabz-davispd (2 warnings)
+[           resources] Started resource int_hotdogs
+[           resources] Started resource vitrine
+[           resources] Started resource vitrine2
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[      script:oxmysql] Database server connection established!
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] [32mAuthenticated with cfx.re Nucleus: https://diego-haubois-ajevek.users.cfx.re/
+[  script:es_extended] [INFO] ESX Legacy 1.9.4 initialized!
+[ script:ox_inventory] [info] Inventory has loaded 221 items
+[      script:hardcap] Connecting: [OFF 2- 31] - Diego Johnson
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Player "Kevin Miller" has connected to the server. ID: 1
+[       script:ds-mdt] Deleted Expired Warrants0
+[     script:skl_jobs] f
+[     script:skl_jobs] f
+[     script:skl_jobs] f
+[     script:skl_jobs] f
+[     script:skl_jobs] f
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 425.534ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"money\":0,\"black_money\":0,\"bank\":57000}","unemployed",0,"admin","{\"z\":39.002197265625,\"heading\":306.1417236328125,\"x\":-328.73406982421877,\"y\":-106.18022155761719}","[{\"count\":1,\"name\":\"tablet\",\"slot\":1},{\"count\":1,\"metadata\":{\"durability\":91.60000000000011,\"serial\":\"288606LKX297025\",\"ammo\":12,\"registered\":\"Kevin Miller\",\"components\":[]},\"name\":\"WEAPON_PISTOL\",\"slot\":2},{\"count\":24,\"name\":\"ammo-9\",\"slot\":3},{\"count\":11,\"name\":\"carglass\",\"slot\":4}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 424.2137ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"money\":0,\"black_money\":0,\"bank\":57400}","unemployed",0,"admin","{\"z\":38.6820068359375,\"heading\":76.53543090820313,\"x\":-334.4571533203125,\"y\":-100.43077087402344}","[{\"count\":1,\"name\":\"tablet\",\"slot\":1},{\"count\":1,\"metadata\":{\"durability\":90.7000000000001,\"serial\":\"288606LKX297025\",\"ammo\":12,\"registered\":\"Kevin Miller\",\"components\":[]},\"name\":\"WEAPON_PISTOL\",\"slot\":2},{\"count\":15,\"name\":\"ammo-9\",\"slot\":3},{\"count\":6,\"name\":\"carglass\",\"slot\":4}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved player "Kevin Miller"
+[      script:hardcap] Connecting: [OFF 2- 31] - Diego Johnson
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Player [36m"Kevin Miller" has connected to the server. ID: 2
+[      script:oxmysql] [WARNING] es_extended took 434.7088ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"money\":0,\"black_money\":0,\"bank\":57600}","unemployed",0,"admin","{\"z\":39.002197265625,\"heading\":314.6456604003906,\"x\":-340.4043884277344,\"y\":-111.36263275146485}","[{\"count\":1,\"name\":\"tablet\",\"slot\":1},{\"count\":1,\"metadata\":{\"durability\":88.30000000000011,\"serial\":\"288606LKX297025\",\"ammo\":3,\"registered\":\"Kevin Miller\",\"components\":[]},\"name\":\"WEAPON_PISTOL\",\"slot\":2},{\"count\":6,\"name\":\"carglass\",\"slot\":4}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 450.705ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"money\":0,\"black_money\":0,\"bank\":58000}","unemployed",0,"admin","{\"z\":40.01318359375,\"heading\":0.0,\"x\":-338.4263610839844,\"y\":-110.71647644042969}","[{\"count\":1,\"name\":\"tablet\",\"slot\":1},{\"count\":1,\"metadata\":{\"durability\":84.70000000000012,\"serial\":\"288606LKX297025\",\"ammo\":12,\"registered\":\"Kevin Miller\",\"components\":[]},\"name\":\"WEAPON_PISTOL\",\"slot\":2},{\"count\":55,\"name\":\"ammo-9\",\"slot\":3},{\"count\":8,\"name\":\"carglass\",\"slot\":4}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 428.264ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"money\":0,\"black_money\":0,\"bank\":58000}","unemployed",0,"admin","{\"z\":39.002197265625,\"heading\":28.34645652770996,\"x\":-341.3538513183594,\"y\":-110.4263687133789}","[{\"count\":1,\"name\":\"tablet\",\"slot\":1},{\"count\":1,\"metadata\":{\"durability\":83.90000000000012,\"serial\":\"288606LKX297025\",\"ammo\":12,\"registered\":\"Kevin Miller\",\"components\":[]},\"name\":\"WEAPON_PISTOL\",\"slot\":2},{\"count\":47,\"name\":\"ammo-9\",\"slot\":3},{\"count\":7,\"name\":\"carglass\",\"slot\":4}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved player "Kevin Miller"
+[ citizen-server-main] -> Quitting: SIGHUP received
+
+================================================================
+======== FXServer Starting - 16/05/2023, 09:05:40               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[           resources] Scanning resources.
+[           resources] Found 42 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 5.2.0 starting...
+[           resources] Started resource monitor
+[ citizen-server-impl] Could not open logo.png for reading.
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] [0mCreating script environments for rconlog
+[           resources] Started resource rconlog
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[           resources] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for ox_target
+[           resources] Started resource ox_target
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[    c-scripting-core] Creating script environments for illenium-appearance
+[           resources] [97mStarted resource illenium-appearance
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for skl_core
+[  resources:skl_core] [0mWarning: could not find client_script `client/scripts/**/*.lua` (defined in fxmanifest.lua:18)
+[           resources] Started resource skl_core (1 warning)
+[    c-scripting-core] Creating script environments for skl_jobs
+[           resources] Started resource skl_jobs
+[           resources] Started resource loadscreen_crystal
+[    c-scripting-core] Creating script environments for ds-mdt
+[           resources] Started resource ds-mdt
+[    c-scripting-core] Creating script environments for interact-sound
+[           resources] [0mStarted resource interact-sound
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for rp-radio
+[           resources] Started resource rp-radio
+[    c-scripting-core] Creating script environments for ox_doorlock
+[           resources] Started resource ox_doorlock
+[    c-scripting-core] Creating script environments for ox_fuel
+[           resources] Started resource ox_fuel
+[resources:LosSantosC] Asset LosSantosCustoms/ajaxon_burton_lsc.ytd uses 45.0 MiB of physical memory.
+[resources:LosSantosC] Asset LosSantosCustoms/bt1_02_build.ytd uses 25.1 MiB of physical memory.
+[           resources] Started resource LosSantosCustoms (2 warnings)
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_davispd_txd.ytd uses 18.0 MiB of physical memory.
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_pdprops01_txd.ytd uses 27.5 MiB of physical memory.
+[           resources] Started resource cfx-gabz-davispd (2 warnings)
+[           resources] Started resource int_hotdogs
+[           resources] Started resource vitrine
+[           resources] Started resource vitrine2
+[      script:oxmysql] Database server connection established!
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[  script:es_extended] [INFO] ESX Legacy 1.9.4 initialized!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://diego-haubois-ajevek.users.cfx.re/
+[ script:ox_inventory] [info] Inventory has loaded 221 items
+[       script:ds-mdt] Deleted Expired Warrants0
+[38;5;73m[ citizen-server-impl] sync thread hitch warning: timer interval of 101 milliseconds
+[      script:hardcap] Connecting: [OFF 2- 31] - Diego Johnson
+[38;5;73m[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Player "Kevin Miller" has connected to the server. ID: 1
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 417.9983ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"bank\":58200,\"black_money\":0,\"money\":0}","unemployed",0,"admin","{\"x\":-331.30548095703127,\"heading\":218.26771545410157,\"z\":39.002197265625,\"y\":-128.92747497558595}","[{\"count\":1,\"name\":\"tablet\",\"slot\":1},{\"count\":1,\"name\":\"WEAPON_PISTOL\",\"slot\":2,\"metadata\":{\"serial\":\"288606LKX297025\",\"durability\":83.90000000000012,\"ammo\":12,\"components\":[],\"registered\":\"Kevin Miller\"}},{\"count\":47,\"name\":\"ammo-9\",\"slot\":3},{\"count\":7,\"name\":\"carglass\",\"slot\":4}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 432.5905ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"bank\":58400,\"black_money\":0,\"money\":0}","unemployed",0,"admin","{\"x\":-331.30548095703127,\"heading\":218.26771545410157,\"z\":39.002197265625,\"y\":-128.92747497558595}","[{\"count\":1,\"name\":\"tablet\",\"slot\":1},{\"count\":1,\"name\":\"WEAPON_PISTOL\",\"slot\":2,\"metadata\":{\"serial\":\"288606LKX297025\",\"durability\":83.90000000000012,\"ammo\":12,\"components\":[],\"registered\":\"Kevin Miller\"}},{\"count\":47,\"name\":\"ammo-9\",\"slot\":3},{\"count\":7,\"name\":\"carglass\",\"slot\":4}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 407.7395ms to execute a query!
+[      script:oxmysql] [0m    UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"bank\":58800,\"black_money\":0,\"money\":0}","unemployed",0,"admin","{\"x\":-337.75384521484377,\"heading\":79.37007904052735,\"z\":38.7325439453125,\"y\":-99.86373901367188}","[{\"count\":1,\"name\":\"tablet\",\"slot\":1},{\"count\":1,\"name\":\"WEAPON_PISTOL\",\"slot\":2,\"metadata\":{\"serial\":\"288606LKX297025\",\"durability\":83.90000000000012,\"ammo\":12,\"components\":[],\"registered\":\"Kevin Miller\"}},{\"count\":47,\"name\":\"ammo-9\",\"slot\":3},{\"count\":7,\"name\":\"carglass\",\"slot\":4}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 400.1692ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"bank\":59400,\"black_money\":0,\"money\":0}","unemployed",0,"admin","{\"x\":-337.75384521484377,\"heading\":79.37007904052735,\"z\":38.7325439453125,\"y\":-99.86373901367188}","[{\"count\":1,\"name\":\"tablet\",\"slot\":1},{\"count\":1,\"name\":\"WEAPON_PISTOL\",\"slot\":2,\"metadata\":{\"serial\":\"288606LKX297025\",\"durability\":83.90000000000012,\"ammo\":12,\"components\":[],\"registered\":\"Kevin Miller\"}},{\"count\":47,\"name\":\"ammo-9\",\"slot\":3},{\"count\":7,\"name\":\"carglass\",\"slot\":4}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 450.9888ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"bank\":59400,\"black_money\":0,\"money\":0}","mechanic",4,"admin","{\"x\":-338.0439453125,\"heading\":184.25196838378907,\"z\":39.002197265625,\"y\":-101.72307586669922}","[{\"count\":1,\"name\":\"tablet\",\"slot\":1},{\"count\":1,\"name\":\"WEAPON_PISTOL\",\"slot\":2,\"metadata\":{\"serial\":\"288606LKX297025\",\"durability\":83.90000000000012,\"ammo\":12,\"components\":[],\"registered\":\"Kevin Miller\"}},{\"count\":47,\"name\":\"ammo-9\",\"slot\":3},{\"count\":7,\"name\":\"carglass\",\"slot\":4},{\"count\":1,\"name\":\"blowpipe\",\"slot\":5}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[     script:skl_jobs] table: 0000016B7A340EC0
+[     script:skl_jobs] mechanic
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 434.2965ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"bank\":59400,\"black_money\":0,\"money\":0}","mechanic",4,"admin","{\"x\":-338.0439453125,\"heading\":184.25196838378907,\"z\":39.002197265625,\"y\":-101.72307586669922}","[{\"count\":1,\"name\":\"tablet\",\"slot\":1},{\"count\":1,\"name\":\"WEAPON_PISTOL\",\"slot\":2,\"metadata\":{\"serial\":\"288606LKX297025\",\"durability\":83.90000000000012,\"ammo\":12,\"components\":[],\"registered\":\"Kevin Miller\"}},{\"count\":47,\"name\":\"ammo-9\",\"slot\":3},{\"count\":7,\"name\":\"carglass\",\"slot\":4}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 443.8111ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"bank\":59400,\"black_money\":0,\"money\":0}","mechanic",4,"admin","{\"x\":-330.5670166015625,\"heading\":8.50393676757812,\"z\":39.002197265625,\"y\":-108.39559936523438}","[{\"count\":1,\"name\":\"tablet\",\"slot\":1},{\"count\":1,\"name\":\"WEAPON_PISTOL\",\"slot\":2,\"metadata\":{\"serial\":\"288606LKX297025\",\"durability\":83.90000000000012,\"ammo\":12,\"components\":[],\"registered\":\"Kevin Miller\"}},{\"count\":47,\"name\":\"ammo-9\",\"slot\":3},{\"count\":7,\"name\":\"carglass\",\"slot\":4}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 450.3998ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"bank\":59400,\"black_money\":0,\"money\":0}","mechanic",4,"admin","{\"x\":-338.20220947265627,\"heading\":161.57479858398438,\"z\":39.01904296875,\"y\":-148.44395446777345}","[{\"count\":1,\"name\":\"tablet\",\"slot\":1},{\"count\":1,\"name\":\"WEAPON_PISTOL\",\"slot\":2,\"metadata\":{\"serial\":\"288606LKX297025\",\"durability\":83.90000000000012,\"ammo\":12,\"components\":[],\"registered\":\"Kevin Miller\"}},{\"count\":47,\"name\":\"ammo-9\",\"slot\":3},{\"count\":7,\"name\":\"carglass\",\"slot\":4},{\"count\":1,\"name\":\"blowpipe\",\"slot\":5}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[     script:skl_jobs] SCRIPT ERROR: @es_extended/locale.lua:4: attempt to index a nil value (global 'Config')
+[     script:skl_jobs] > ref (@es_extended/server/functions.lua:360)
+[     script:skl_jobs] > [global chunk] (@ox_inventory/server.lua:330)
+[     script:skl_jobs] > handler (@ox_lib/callback/server.lua:76)
+[  script:es_extended] [WARNING] An error occured when using item "fixkit"! This was not caused by ESX.
+[     script:skl_jobs] SCRIPT ERROR: @es_extended/locale.lua:4: attempt to index a nil value (global 'Config')
+[     script:skl_jobs] > ref (@es_extended/server/functions.lua:360)
+[     script:skl_jobs] > [global chunk] (@ox_inventory/server.lua:330)
+[     script:skl_jobs] > handler (@ox_lib/callback/server.lua:76)
+[  script:es_extended] [WARNING] An error occured when using item "fixkit"! This was not caused by ESX.
+[     script:skl_jobs] SCRIPT ERROR: @es_extended/locale.lua:4: attempt to index a nil value (global 'Config')
+[     script:skl_jobs] > ref (@es_extended/server/functions.lua:360)
+[     script:skl_jobs] > [global chunk] (@ox_inventory/server.lua:330)
+[     script:skl_jobs] > handler (@ox_lib/callback/server.lua:76)
+[  script:es_extended] [WARNING] An error occured when using item "fixkit"! This was not caused by ESX.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[     script:skl_jobs] SCRIPT ERROR: @es_extended/locale.lua:4: attempt to index a nil value (global 'Config')
+[     script:skl_jobs] > ref (@es_extended/server/functions.lua:360)
+[     script:skl_jobs] > [global chunk] (@ox_inventory/server.lua:330)
+[     script:skl_jobs] > handler (@ox_lib/callback/server.lua:76)
+[  script:es_extended] [WARNING] An error occured when using item "fixkit"! This was not caused by ESX.
+[     script:skl_jobs] SCRIPT ERROR: @es_extended/locale.lua:4: attempt to index a nil value (global 'Config')
+[     script:skl_jobs] > ref (@es_extended/server/functions.lua:360)
+[     script:skl_jobs] > [global chunk] (@ox_inventory/server.lua:330)
+[     script:skl_jobs] > handler (@ox_lib/callback/server.lua:76)
+[  script:es_extended] [WARNING] An error occured when using item "fixkit"! This was not caused by ESX.
+[     script:skl_jobs] SCRIPT ERROR: @es_extended/locale.lua:4: attempt to index a nil value (global 'Config')
+[     script:skl_jobs] > ref (@es_extended/server/functions.lua:360)
+[     script:skl_jobs] > [global chunk] (@ox_inventory/server.lua:330)
+[     script:skl_jobs] > handler (@ox_lib/callback/server.lua:76)
+[  script:es_extended] [WARNING] An error occured when using item "fixkit"! This was not caused by ESX.
+[     script:skl_jobs] SCRIPT ERROR: @es_extended/locale.lua:4: attempt to index a nil value (global 'Config')
+[     script:skl_jobs] > ref (@es_extended/server/functions.lua:360)
+[     script:skl_jobs] > [global chunk] (@ox_inventory/server.lua:330)
+[     script:skl_jobs] > handler (@ox_lib/callback/server.lua:76)
+[  script:es_extended] [WARNING] An error occured when using item "fixkit"! This was not caused by ESX.
+[     script:skl_jobs] SCRIPT ERROR: @es_extended/locale.lua:4: attempt to index a nil value (global 'Config')
+[     script:skl_jobs] > ref (@es_extended/server/functions.lua:360)
+[     script:skl_jobs] > [global chunk] (@ox_inventory/server.lua:330)
+[     script:skl_jobs] > handler (@ox_lib/callback/server.lua:76)
+[  script:es_extended] [WARNING] An error occured when using item "fixkit"! This was not caused by ESX.
+[     script:skl_jobs] SCRIPT ERROR: @es_extended/locale.lua:4: attempt to index a nil value (global 'Config')
+[     script:skl_jobs] > ref (@es_extended/server/functions.lua:360)
+[     script:skl_jobs] > [global chunk] (@ox_inventory/server.lua:330)
+[     script:skl_jobs] > handler (@ox_lib/callback/server.lua:76)
+[  script:es_extended] [WARNING] An error occured when using item "fixkit"! This was not caused by ESX.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[     script:skl_jobs] tg
+[     script:skl_jobs] tg
+[     script:skl_jobs] tg
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[     script:skl_jobs] tg
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[     script:skl_jobs] tg
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[     script:skl_jobs] tg
+[     script:skl_jobs] tg
+[     script:skl_jobs] tg
+[     script:skl_jobs] tg
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 446.7023ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"bank\":59400,\"black_money\":0,\"money\":0}","mechanic",4,"admin","{\"x\":-330.1846008300781,\"heading\":209.76377868652345,\"z\":39.002197265625,\"y\":-131.5384521484375}","[{\"count\":1,\"name\":\"tablet\",\"slot\":1},{\"count\":1,\"name\":\"WEAPON_PISTOL\",\"slot\":2,\"metadata\":{\"serial\":\"288606LKX297025\",\"durability\":81.90000000000012,\"ammo\":12,\"components\":[],\"registered\":\"Kevin Miller\"}},{\"count\":27,\"name\":\"ammo-9\",\"slot\":3},{\"count\":1,\"name\":\"fixkit\",\"slot\":4},{\"count\":1,\"name\":\"blowpipe\",\"slot\":5},{\"count\":7,\"name\":\"carglass\",\"slot\":6},{\"count\":1,\"name\":\"carokit\",\"slot\":7}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1[0m player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over [36m0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [[32mINFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0[0m ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] server thread hitch warning: timer interval of 214 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[     script:skl_jobs] tg
+[     script:skl_jobs] tg
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 412.3438ms to execute a query!
+[38;5;42m[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"bank\":59400,\"black_money\":0,\"money\":0}","mechanic",4,"admin","{\"x\":-329.28790283203127,\"heading\":226.77166748046876,\"z\":39.01904296875,\"y\":-130.66812133789063}","[{\"count\":1,\"name\":\"fixkit\",\"slot\":14},{\"count\":1,\"name\":\"tablet\",\"slot\":15},{\"count\":1,\"name\":\"WEAPON_PISTOL\",\"slot\":2,\"metadata\":{\"serial\":\"288606LKX297025\",\"durability\":81.90000000000012,\"ammo\":12,\"registered\":\"Kevin Miller\",\"components\":[]}},{\"count\":27,\"name\":\"ammo-9\",\"slot\":3},{\"count\":1,\"name\":\"blowpipe\",\"slot\":11},{\"count\":7,\"name\":\"carglass\",\"slot\":12},{\"count\":1,\"name\":\"carokit\",\"slot\":13}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 114 milliseconds
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] server thread hitch warning: timer interval of 764 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[     script:skl_jobs] tg
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 432.907ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"bank\":59400,\"black_money\":0,\"money\":0}","mechanic",4,"admin","{\"x\":-340.5626220703125,\"heading\":175.74803161621095,\"z\":39.002197265625,\"y\":-138.06593322753907}","[{\"count\":66,\"name\":\"ammo-9\",\"slot\":1},{\"count\":1,\"name\":\"WEAPON_PISTOL\",\"slot\":2,\"metadata\":{\"serial\":\"288606LKX297025\",\"durability\":75.00000000000014,\"ammo\":4,\"registered\":\"Kevin Miller\",\"components\":[]}},{\"count\":4,\"name\":\"carglass\",\"slot\":12},{\"count\":1,\"name\":\"carokit\",\"slot\":13},{\"count\":1,\"name\":\"blowpipe\",\"slot\":11},{\"count\":1,\"name\":\"tablet\",\"slot\":14}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[     script:skl_jobs] tg
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/inventory/server.lua:732: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SELECT plate, glovebox FROM `owned_vehicles` WHERE `plate` = ?
+[ script:ox_inventory] > callbackResponse (@ox_lib/callback/server.lua:60)
+[ script:ox_inventory] > handler (@ox_lib/callback/server.lua:76)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:22053)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] 
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/inventory/server.lua:732: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SELECT plate, glovebox FROM `owned_vehicles` WHERE `plate` = ?
+[ script:ox_inventory] > callbackResponse (@ox_lib/callback/server.lua:60)
+[ script:ox_inventory] > handler (@ox_lib/callback/server.lua:76)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:22053)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] 
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/inventory/server.lua:732: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SELECT plate, glovebox FROM `owned_vehicles` WHERE `plate` = ?
+[ script:ox_inventory] > callbackResponse (@ox_lib/callback/server.lua:60)
+[ script:ox_inventory] > handler (@ox_lib/callback/server.lua:76)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:22053)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] 
+[  script:es_extended] [INFO] Saved player "Kevin Miller[0m"
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] sync thread hitch warning: timer interval of 115 milliseconds
+[ citizen-server-impl] server thread hitch warning: timer interval of 158 milliseconds
+[ citizen-server-impl] sync thread hitch warning: timer interval of 111 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] [0mServer list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+
+================================================================
+======== FXServer Starting - 16/05/2023, 15:32:14               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[           resources] Scanning resources.
+[           resources] Found 42 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 5.2.0 starting...
+[           resources] Started resource monitor
+[ citizen-server-impl] Could not open logo.png for reading.
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for rconlog
+[           resources] Started resource rconlog
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[           resources] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for ox_target
+[           resources] Started resource ox_target
+[    c-scripting-core] Creating script environments for ox_inventory
+[script:ox_inventory:] Warning: failed to setup crafting recipe (bench: 1, slot: 1) - item "lockpick" does not exist
+[           resources] Started resource ox_inventory
+[    c-scripting-core] [0mCreating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] [0mCreating script environments for skl_core
+[  resources:skl_core] [0mWarning: could not find client_script `client/scripts/**/*.lua` (defined in fxmanifest.lua:18)
+[           resources] Started resource skl_core (1 warning)
+[    c-scripting-core] Creating script environments for skl_jobs
+[           resources] Started resource skl_jobs
+[           resources] Started resource loadscreen_crystal
+[    c-scripting-core] Creating script environments for ds-mdt
+[           resources] Started resource ds-mdt
+[    c-scripting-core] Creating script environments for interact-sound
+[           resources] [0mStarted resource interact-sound
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for rp-radio
+[           resources] Started resource rp-radio
+[    c-scripting-core] Creating script environments for ox_doorlock
+[           resources] Started resource ox_doorlock
+[    c-scripting-core] Creating script environments for ox_fuel
+[           resources] Started resource ox_fuel
+[resources:LosSantosC] Asset LosSantosCustoms/ajaxon_burton_lsc.ytd uses 45.0 MiB of physical memory.
+[resources:LosSantosC] Asset LosSantosCustoms/bt1_02_build.ytd uses 25.1 MiB of physical memory.
+[           resources] Started resource LosSantosCustoms (2 warnings)
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_davispd_txd.ytd uses 18.0 MiB of physical memory.
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_pdprops01_txd.ytd uses 27.5 MiB of physical memory.
+[           resources] Started resource cfx-gabz-davispd (2 warnings)
+[           resources] Started resource int_hotdogs
+[           resources] Started resource vitrine
+[           resources] Started resource vitrine2
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://diego-haubois-ajevek.users.cfx.re/
+[      script:oxmysql] Database server connection established!
+[      script:oxmysql] [WARNING] skl_core took 719.5489ms to execute a query!
+[      script:oxmysql]     SELECT type, label FROM licenses []
+[      script:oxmysql] [WARNING] skl_core took 721.5259ms to execute a query!
+[      script:oxmysql]     SELECT * FROM addon_inventory []
+[      script:oxmysql] [WARNING] skl_core took 722.218ms to execute a query!
+[      script:oxmysql]     SELECT * FROM addon_inventory []
+[      script:oxmysql] [WARNING] es_extended took 722.4084ms to execute a query!
+[      script:oxmysql]     SELECT * FROM jobs []
+[      script:oxmysql] [WARNING] ox_doorlock took 722.341ms to execute a query!
+[      script:oxmysql]     SELECT id, name, data FROM ox_doorlock []
+[      script:oxmysql] [WARNING] ox_inventory took 723.868ms to execute a query!
+[      script:oxmysql]     SELECT * FROM items []
+[      script:oxmysql] [WARNING] ox_inventory took 724.5289ms to execute a query!
+[      script:oxmysql]     SELECT 1 FROM ox_inventory []
+[      script:oxmysql] [WARNING] ox_inventory took 724.9981ms to execute a query!
+[      script:oxmysql]     INSERT IGNORE INTO `licenses` (`type`, `label`) VALUES (?, ?) ["weapon","Weapon License"]
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[      script:oxmysql] [WARNING] skl_core took 750.6944ms to execute a query!
+[      script:oxmysql]     SELECT * FROM addon_account LEFT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name UNION SELECT * FROM addon_account RIGHT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name []
+[      script:oxmysql] [WARNING] skl_core took 753.3206ms to execute a query!
+[      script:oxmysql]     SELECT * FROM datastore_data LEFT JOIN datastore ON datastore_data.name = datastore.name UNION SELECT * FROM datastore_data RIGHT JOIN datastore ON datastore_data.name = datastore.name []
+[  script:es_extended] [INFO] ESX Legacy 1.9.4 initialized!
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[       script:ds-mdt] Deleted Expired Warrants0
+[      script:hardcap] Connecting: [OFF 2- 31] - Diego Johnson
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Player "Kevin Miller" has connected to the server. ID: 1
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved player "Kevin Miller"
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂Diego_Haubois＂,＂message＂:＂Le serveur redémarre (requested by Diego_Haubois).＂}"
+[      script:monitor] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 16/05/2023, 15:42:08               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[           resources] Scanning resources.
+[           resources] Found 42 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 5.2.0 starting...
+[           resources] Started resource monitor
+[ citizen-server-impl] Could not open logo.png for reading.
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] [0mCreating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for rconlog
+[           resources] Started resource rconlog
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] [0mStarted resource ox_lib
+[           resources] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] [97mCreating script environments for ox_target
+[           resources] Started resource ox_target
+[    c-scripting-core] Creating script environments for ox_inventory
+[script:ox_inventory:] Warning: failed to setup crafting recipe (bench: 1, slot: 1) - item "lockpick" does not exist
+[           resources] Started resource ox_inventory
+[    c-scripting-core] Creating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] [0mCreating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] [0mStarted resource esx_context
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] [0mCreating script environments for esx_progressbar
+[           resources] [0mStarted resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for skl_core
+[  resources:skl_core] Warning: could not find client_script `client/scripts/**/*.lua` (defined in fxmanifest.lua:18)
+[           resources] Started resource skl_core (1 warning)
+[    c-scripting-core] [0mCreating script environments for skl_jobs
+[           resources] Started resource skl_jobs
+[           resources] Started resource loadscreen_crystal
+[    c-scripting-core] Creating script environments for ds-mdt
+[           resources] Started resource ds-mdt
+[    c-scripting-core] Creating script environments for interact-sound
+[           resources] Started resource interact-sound
+[    c-scripting-core] [0mCreating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for rp-radio
+[           resources] Started resource rp-radio
+[    c-scripting-core] Creating script environments for ox_doorlock
+[           resources] Started resource ox_doorlock
+[    c-scripting-core] Creating script environments for ox_fuel
+[           resources] Started resource ox_fuel
+[resources:LosSantosC] Asset LosSantosCustoms/ajaxon_burton_lsc.ytd uses 45.0 MiB of physical memory.
+[resources:LosSantosC] Asset LosSantosCustoms/bt1_02_build.ytd uses 25.1 MiB of physical memory.
+[           resources] Started resource LosSantosCustoms (2 warnings)
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_davispd_txd.ytd uses 18.0 MiB of physical memory.
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_pdprops01_txd.ytd uses 27.5 MiB of physical memory.
+[           resources] Started resource cfx-gabz-davispd (2 warnings)
+[           resources] Started resource int_hotdogs
+[           resources] Started resource vitrine
+[           resources] Started resource vitrine2
+[      script:oxmysql] Database server connection established!
+[      script:monitor] [97m[txAdminClient] Threads and commands set up. All Ready.
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://diego-haubois-ajevek.users.cfx.re/
+[  script:es_extended] [INFO] ESX Legacy 1.9.4 initialized!
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[      script:hardcap] Connecting: [OFF 2- 31] - Diego Johnson
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[       script:ds-mdt] Deleted Expired Warrants0
+[  script:es_extended] [INFO] Player "Kevin Miller" has connected to the server. ID: 1
+[ citizen-server-impl] server thread hitch warning: timer interval of 160 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[ citizen-server-impl] server thread hitch warning: timer interval of 157 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] server thread hitch warning: timer interval of 166 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[ citizen-server-impl] server thread hitch warning: timer interval of 167 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[ citizen-server-impl] server thread hitch warning: timer interval of 179 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[  script:es_extended] [INFO] Saved player "Kevin Miller"
+[      script:hardcap] Connecting: [OFF 2- 31] - Diego Johnson
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Player "Kevin Miller" has connected to the server. ID: 2
+[ citizen-server-impl] server thread hitch warning: timer interval of 165 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[ citizen-server-impl] server thread hitch warning: timer interval of 166 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[ citizen-server-impl] server thread hitch warning: timer interval of 168 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[ citizen-server-impl] server thread hitch warning: timer interval of 171 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [0m[info] Inventory has loaded 222 items
+[ citizen-server-impl] server thread hitch warning: timer interval of 162 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] server thread hitch warning: timer interval of 160 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] server thread hitch warning: timer interval of 173 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] server thread hitch warning: timer interval of 163 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[      script:oxmysql] [WARNING] es_extended took 409.06ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"bank\":59600,\"black_money\":0,\"money\":0}","mechanic",0,"admin","{\"x\":-367.1604309082031,\"y\":-82.02197265625,\"z\":39.002197265625,\"heading\":206.92913818359376}","[{\"metadata\":{\"registered\":\"Kevin Miller\",\"durability\":75.00000000000014,\"ammo\":4,\"components\":[],\"serial\":\"288606LKX297025\"},\"slot\":1,\"name\":\"WEAPON_PISTOL\",\"count\":1},{\"slot\":6,\"name\":\"blowpipe\",\"count\":1},{\"slot\":7,\"name\":\"tablet\",\"count\":1},{\"slot\":8,\"name\":\"carokit\",\"count\":1},{\"slot\":16,\"name\":\"ammo-9\",\"count\":66}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved player "Kevin Miller"
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] [0mServer list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] [91mServer list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:hardcap] Connecting: [OFF 2- 31] - Diego Johnson
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Player "Kevin Miller" has connected to the server. ID: 3
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] server thread hitch warning: timer interval of 176 milliseconds
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:oxmysql] [WARNING] es_extended took 442.6671ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"bank\":59612,\"black_money\":0,\"money\":0}","mechanic",0,"admin","{\"x\":-367.8593444824219,\"y\":-80.45274353027344,\"z\":39.2718505859375,\"heading\":348.6614074707031}","[{\"metadata\":{\"registered\":\"Kevin Miller\",\"ammo\":4,\"durability\":75.00000000000014,\"components\":[],\"serial\":\"288606LKX297025\"},\"slot\":1,\"name\":\"WEAPON_PISTOL\",\"count\":1},{\"slot\":7,\"name\":\"tablet\",\"count\":1},{\"slot\":8,\"name\":\"carokit\",\"count\":1},{\"slot\":16,\"name\":\"ammo-9\",\"count\":66},{\"slot\":6,\"name\":\"blowpipe\",\"count\":1},{\"slot\":9,\"name\":\"carokit\",\"count\":2}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved player "Kevin Miller"
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] [0mServer list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:hardcap] Connecting: [OFF 2- 31] - Diego Johnson
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Player "Kevin Miller" has connected to the server. ID: 4
+[      script:oxmysql] [WARNING] es_extended took 439.401ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"bank\":59612,\"black_money\":0,\"money\":0}","mechanic",0,"admin","{\"x\":-367.8461608886719,\"y\":-80.36043548583985,\"z\":39.002197265625,\"heading\":348.6614074707031}","[{\"metadata\":{\"registered\":\"Kevin Miller\",\"ammo\":4,\"durability\":75.00000000000014,\"components\":[],\"serial\":\"288606LKX297025\"},\"slot\":1,\"name\":\"WEAPON_PISTOL\",\"count\":1},{\"slot\":7,\"name\":\"tablet\",\"count\":1},{\"slot\":8,\"name\":\"carokit\",\"count\":1},{\"slot\":16,\"name\":\"ammo-9\",\"count\":66},{\"slot\":6,\"name\":\"blowpipe\",\"count\":1},{\"slot\":9,\"name\":\"carokit\",\"count\":2}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] server thread hitch warning: timer interval of 340 milliseconds
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[  script:es_extended] [INFO] Saved player "Kevin Miller"
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+> txaEvent "serverShuttingDown" "{＂delay＂:5000,＂author＂:＂Diego_Haubois＂,＂message＂:＂Le serveur redémarre (requested by Diego_Haubois).＂}"
+[      script:monitor] Server shutdown imminent. Kicking all players.
+
+================================================================
+======== FXServer Starting - 16/05/2023, 18:44:16               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[           resources] Scanning resources.
+[           resources] Found 43 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 5.2.0 starting...
+[           resources] Started resource monitor
+[ citizen-server-impl] Could not open logo.png for reading.
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[38;5;161m[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for rconlog
+[           resources] Started resource rconlog
+[    c-scripting-core] Creating script environments for oxmysql
+[           resources] [0mStarted resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[           resources] Started resource spawnmanager
+[38;5;161m[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for ox_target
+[           resources] [97mStarted resource ox_target
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[    c-scripting-core] Creating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[           resources] [0mStarted resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[38;5;83m[           resources] Started resource esx_menu_list
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for skl_core
+[  resources:skl_core] [93mWarning: could not find client_script `client/scripts/**/*.lua` (defined in fxmanifest.lua:18)
+[           resources] Started resource skl_core (1 warning)
+[    c-scripting-core] [0mCreating script environments for skl_jobs
+[           resources] Started resource skl_jobs
+[           resources] Started resource loadscreen_crystal
+[38;5;161m[    c-scripting-core] Creating script environments for ds-mdt
+[           resources] Started resource ds-mdt
+[    c-scripting-core] Creating script environments for interact-sound
+[           resources] Started resource interact-sound
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for rp-radio
+[38;5;83m[           resources] [0mStarted resource rp-radio
+[38;5;161m[    c-scripting-core] Creating script environments for ox_doorlock
+[           resources] Started resource ox_doorlock
+[38;5;161m[    c-scripting-core] Creating script environments for ox_fuel
+[38;5;83m[           resources] Started resource ox_fuel
+[resources:LosSantosC] Asset LosSantosCustoms/ajaxon_burton_lsc.ytd uses 45.0 MiB of physical memory.
+[resources:LosSantosC] Asset LosSantosCustoms/bt1_02_build.ytd uses 25.1 MiB of physical memory.
+[           resources] Started resource LosSantosCustoms (2 warnings)
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_davispd_txd.ytd uses 18.0 MiB of physical memory.
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_pdprops01_txd.ytd uses 27.5 MiB of physical memory.
+[           resources] Started resource cfx-gabz-davispd (2 warnings)
+[38;5;83m[           resources] Started resource int_hotdogs
+[           resources] Started resource vitrine
+[           resources] Started resource vitrine2
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[      script:oxmysql] Database server connection established!
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[  script:es_extended] [INFO] ESX Legacy 1.9.4 initialized!
+[38;5;73m[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://diego-haubois-ajevek.users.cfx.re/
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[      script:hardcap] Connecting: [OFF 2- 31] - Diego Johnson
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Player "Kevin Miller" has connected to the server. ID: 1
+[       script:ds-mdt] Deleted Expired Warrants0
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[script:prz_atmrobber] true
+[ citizen-server-impl] [0mServer list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] [0mServer list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[script:prz_atmrobber] true
+[      script:oxmysql] [WARNING] es_extended took 404.9505ms to execute a query!
+[      script:oxmysql]     UPDATE `users` SET `accounts` = ?, `job` = ?, `job_grade` = ?, `group` = ?, `position` = ?, `inventory` = ?, `loadout` = ?, `metadata` = ? WHERE `identifier` = ? ["{\"black_money\":0,\"bank\":59696,\"money\":0}","mechanic",0,"admin","{\"y\":-1035.7186279296876,\"z\":30.5772705078125,\"heading\":164.40945434570313,\"x\":147.8109893798828}","[{\"metadata\":{\"registered\":\"Kevin Miller\",\"ammo\":4,\"durability\":75.00000000000014,\"serial\":\"288606LKX297025\",\"components\":[]},\"count\":1,\"name\":\"WEAPON_PISTOL\",\"slot\":1},{\"count\":1,\"name\":\"tablet\",\"slot\":7},{\"count\":1,\"name\":\"carokit\",\"slot\":8},{\"count\":66,\"name\":\"ammo-9\",\"slot\":16},{\"count\":1,\"name\":\"blowpipe\",\"slot\":6},{\"count\":2,\"name\":\"carokit\",\"slot\":9}]","[]","[]","467826b1f966aed6683f462c40b5cea8ad5b1a22"]
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[script:prz_atmrobber] true
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved player "Kevin Miller"
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-main] -> Quitting: SIGHUP received
+
+================================================================
+======== FXServer Starting - 16/05/2023, 20:29:34               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[           resources] Scanning resources.
+[           resources] Found 43 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 5.2.0 starting...
+[           resources] Started resource monitor
+[ citizen-server-impl] [0mCould not open logo.png for reading.
+[    c-scripting-core] [97mCreating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] Creating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] [0mCreating script environments for rconlog
+[           resources] Started resource rconlog
+[38;5;161m[    c-scripting-core] Creating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[           resources] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for ox_target
+[           resources] Started resource ox_target
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[    c-scripting-core] [97mCreating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] Creating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] Creating script environments for esx_context
+[           resources] Started resource esx_context
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[    c-scripting-core] Creating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] Creating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for skl_core
+[  resources:skl_core] [0mWarning: could not find client_script `client/scripts/**/*.lua` (defined in fxmanifest.lua:18)
+[           resources] Started resource skl_core (1 warning)
+[    c-scripting-core] Creating script environments for skl_jobs
+[           resources] [0mStarted resource skl_jobs
+[           resources] Started resource loadscreen_crystal
+[    c-scripting-core] Creating script environments for ds-mdt
+[           resources] [0mStarted resource ds-mdt
+[    c-scripting-core] Creating script environments for interact-sound
+[           resources] Started resource interact-sound
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for rp-radio
+[           resources] [0mStarted resource rp-radio
+[    c-scripting-core] Creating script environments for ox_doorlock
+[           resources] Started resource ox_doorlock
+[    c-scripting-core] Creating script environments for ox_fuel
+[           resources] Started resource ox_fuel
+[resources:LosSantosC] Asset LosSantosCustoms/ajaxon_burton_lsc.ytd uses 45.0 MiB of physical memory.
+[resources:LosSantosC] Asset LosSantosCustoms/bt1_02_build.ytd uses 25.1 MiB of physical memory.
+[           resources] Started resource LosSantosCustoms (2 warnings)
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_davispd_txd.ytd uses 18.0 MiB of physical memory.
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_pdprops01_txd.ytd uses 27.5 MiB of physical memory.
+[           resources] Started resource cfx-gabz-davispd (2 warnings)
+[           resources] Started resource int_hotdogs
+[           resources] Started resource vitrine
+[           resources] Started resource vitrine2
+[      script:oxmysql] Database server connection established!
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[  script:es_extended] [INFO] ESX Legacy 1.9.4 initialized!
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://diego-haubois-ajevek.users.cfx.re/
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[       script:ds-mdt] Deleted Expired Warrants0
+[      script:hardcap] Connecting: [OFF 2- 31] - Diego Johnson
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Player "Kevin Miller" has connected to the server. ID: 1
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+
+================================================================
+======== FXServer Starting - 16/05/2023, 21:42:41               
+================================================================
+[    c-scripting-core] Creating script environments for _cfx_internal
+[           resources] Scanning resources.
+[           resources] Found 43 resources.
+[          svadhesive] Authenticating server license key...
+[          svadhesive] Server license key authentication succeeded. Welcome!
+[    c-scripting-core] Creating script environments for sessionmanager
+[           resources] Started resource sessionmanager
+[    c-scripting-core] Creating script environments for monitor
+[      script:monitor] [txAdminClient] Version 5.2.0 starting...
+[           resources] Started resource monitor
+[ citizen-server-impl] Could not open logo.png for reading.
+[    c-scripting-core] Creating script environments for yarn
+[           resources] Started resource yarn
+[    c-scripting-core] [97mCreating script environments for webpack
+[           resources] Started resource webpack
+[    c-scripting-core] Creating script environments for chat
+[           resources] Started resource chat
+[    c-scripting-core] Creating script environments for hardcap
+[           resources] Started resource hardcap
+[    c-scripting-core] Creating script environments for rconlog
+[           resources] Started resource rconlog
+[    c-scripting-core] [97mCreating script environments for oxmysql
+[           resources] Started resource oxmysql
+[    c-scripting-core] Creating script environments for ox_lib
+[           resources] Started resource ox_lib
+[           resources] Started resource spawnmanager
+[    c-scripting-core] Creating script environments for es_extended
+[           resources] Started resource es_extended
+[    c-scripting-core] Creating script environments for ox_target
+[           resources] Started resource ox_target
+[    c-scripting-core] Creating script environments for ox_inventory
+[           resources] Started resource ox_inventory
+[    c-scripting-core] Creating script environments for illenium-appearance
+[           resources] Started resource illenium-appearance
+[    c-scripting-core] Creating script environments for esx_identity
+[           resources] Started resource esx_identity
+[    c-scripting-core] [0mCreating script environments for pma-voice
+[           resources] Started resource pma-voice
+[    c-scripting-core] [97mCreating script environments for esx_context
+[           resources] Started resource esx_context
+[           resources] Started resource esx_menu_default
+[           resources] Started resource esx_menu_dialog
+[           resources] Started resource esx_menu_list
+[    c-scripting-core] [97mCreating script environments for esx_notify
+[           resources] Started resource esx_notify
+[    c-scripting-core] [97mCreating script environments for esx_progressbar
+[           resources] Started resource esx_progressbar
+[    c-scripting-core] Creating script environments for esx_textui
+[           resources] Started resource esx_textui
+[    c-scripting-core] Creating script environments for skl_core
+[  resources:skl_core] Warning: could not find client_script `client/scripts/**/*.lua` (defined in fxmanifest.lua:18)
+[           resources] Started resource skl_core (1 warning)
+[    c-scripting-core] Creating script environments for skl_jobs
+[           resources] Started resource skl_jobs
+[           resources] Started resource loadscreen_crystal
+[    c-scripting-core] Creating script environments for ds-mdt
+[           resources] Started resource ds-mdt
+[    c-scripting-core] [0mCreating script environments for interact-sound
+[           resources] [0mStarted resource interact-sound
+[    c-scripting-core] Creating script environments for baseevents
+[           resources] Started resource baseevents
+[    c-scripting-core] Creating script environments for rp-radio
+[           resources] Started resource rp-radio
+[    c-scripting-core] [0mCreating script environments for ox_doorlock
+[           resources] [0mStarted resource ox_doorlock
+[    c-scripting-core] Creating script environments for ox_fuel
+[           resources] Started resource ox_fuel
+[resources:LosSantosC] Asset LosSantosCustoms/ajaxon_burton_lsc.ytd uses 45.0 MiB of physical memory.
+[resources:LosSantosC] Asset LosSantosCustoms/bt1_02_build.ytd uses 25.1 MiB of physical memory.
+[           resources] Started resource LosSantosCustoms (2 warnings)
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_davispd_txd.ytd uses 18.0 MiB of physical memory.
+[resources:cfx-gabz-d] Asset cfx-gabz-davispd/gabz_pdprops01_txd.ytd uses 27.5 MiB of physical memory.
+[           resources] Started resource cfx-gabz-davispd (2 warnings)
+[           resources] Started resource int_hotdogs
+[           resources] Started resource vitrine
+[           resources] Started resource vitrine2
+[      script:oxmysql] Database server connection established!
+[      script:monitor] [txAdminClient] Threads and commands set up. All Ready.
+[ script:ox_inventory] SCRIPT ERROR: @ox_inventory/modules/mysql/server.lua:81: ox_inventory was unable to execute a query!
+[ script:ox_inventory] Table 'final.owned_vehicles' doesn't exist
+[ script:ox_inventory] SHOW COLUMNS FROM `owned_vehicles` []
+[ script:ox_inventory] > fn (@ox_inventory/modules/mysql/server.lua:81)
+[ script:ox_inventory] > <unknown> (@oxmysql/dist/build.js:21832)
+[ script:ox_inventory] > processTicksAndRejections (node:internal/process/task_queues:96)
+[ citizen-server-impl]         fff                          
+[ citizen-server-impl]   cccc ff   xx  xx     rr rr    eee  
+[ citizen-server-impl] cc     ffff   xx       rrr  r ee   e 
+[ citizen-server-impl] cc     ff     xx   ... rr     eeeee  
+[ citizen-server-impl]  ccccc ff   xx  xx ... rr      eeeee 
+[ citizen-server-impl]                                      
+[ citizen-server-impl] Authenticated with cfx.re Nucleus: https://diego-haubois-ajevek.users.cfx.re/
+[  script:es_extended] [INFO] ESX Legacy 1.9.4[97m initialized!
+[      script:oxmysql] [WARNING] skl_core took 226.4595ms to execute a query!
+[38;5;42m[      script:oxmysql]     SELECT * FROM addon_account LEFT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name UNION SELECT * FROM addon_account RIGHT JOIN addon_account_data ON addon_account.name = addon_account_data.account_name []
+[      script:oxmysql] [WARNING] skl_core took 252.0569ms to execute a query!
+[      script:oxmysql]     SELECT * FROM datastore_data LEFT JOIN datastore ON datastore_data.name = datastore.name UNION SELECT * FROM datastore_data RIGHT JOIN datastore ON datastore_data.name = datastore.name []
+[ script:ox_inventory] [info] Inventory has loaded 222 items
+[       script:ds-mdt] Deleted Expired Warrants0
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] [0mServer list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] [91mServer list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[      script:hardcap] Connecting: [OFF 2- 31] - Diego Johnson
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Player "Kevin Miller" has connected to the server. ID: 1
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[script:prz_atmrobber] true
+[script:prz_atmrobber] true
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[script:prz_atmrobber] 7170
+[script:prz_atmrobber] 7170
+[script:prz_atmrobber] 7170
+[script:prz_atmrobber] 7170
+[script:prz_atmrobber] 7170
+[script:prz_atmrobber] 7170
+[script:prz_atmrobber] 7170
+[script:prz_atmrobber] 7170
+[script:prz_atmrobber] [0m7170
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[  script:es_extended] [INFO] Saved 1 player over 0.0 ms
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.
+[ citizen-server-impl] Server list query returned an error: System.Threading.Tasks.TaskCanceledException: A task was canceled. <- System.TimeoutException: A task was canceled. <- System.Threading.Tasks.TaskCanceledException: The request was canceled due to the configured HttpClient.Timeout of 30 seconds elapsing.

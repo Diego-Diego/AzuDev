@@ -249,7 +249,7 @@ return {
   	['atmhacker'] = {
   		label = 'ATM Hacker',
   		weight = 750,
-          description = 'Utiliser pour des activités malveillantes..',
+        description = 'Utiliser pour des activités malveillantes..',
   	},
   
   	["blowpipe"] = {
@@ -274,29 +274,47 @@ return {
   	},
   
   	["fixkit"] = {
-  		label = "Kit réparation",
+  		label = "Kit réparation (moteur)",
   		weight = 3,
   		stack = true,
   		close = true,
   	},
   
   	["fixtool"] = {
-  		label = "outils réparation",
+  		label = "Outils réparation",
   		weight = 2,
   		stack = true,
   		close = true,
   	},
-  
+
   	["gazbottle"] = {
-  		label = "bouteille de gaz",
+  		label = "Bouteille de gaz",
   		weight = 2,
   		stack = true,
   		close = true,
   	},
-	  
+
   	["tablet"] = {
-		label = "tablette mécano",
+		label = "Tablette mécano",
 		weight = 2,
+		stack = true,
+		close = true,
+	},
+	["carglass"] = {
+		label = "fenêtre véhicule",
+		weight = 2,
+		stack = true,
+		close = true,
+	},
+	["tire"] = {
+		label = "Pneu",
+		weight = 10,
+		stack = true,
+		close = true,
+	},
+	["superoil"] = {
+		label = "Super OIL",
+		weight = 1,
 		stack = true,
 		close = true,
 	},

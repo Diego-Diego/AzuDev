@@ -28,5 +28,6 @@ INSERT INTO `items` (name, label, weight) VALUES
 	('carotool', 'outils carosserie', 2),
 	('blowpipe', 'Chalumeaux', 2),
 	('fixkit', 'Kit réparation', 3),
-	('carokit', 'Kit carosserie', 3)
+	('carokit', 'Kit carosserie', 3),
+	("tablet", 'Tablette mécano', 2)
 ;

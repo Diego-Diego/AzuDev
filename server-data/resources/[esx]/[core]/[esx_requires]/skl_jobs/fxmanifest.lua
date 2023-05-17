@@ -1,5 +1,7 @@
 fx_version 'adamant'
 
+lua54 'yes'
+
 game 'gta5'
 
 shared_scripts {
@@ -17,7 +19,8 @@ client_scripts {
 	"vendors/RageUI/menu/items/*.lua",
 	"vendors/RageUI/menu/panels/*.lua",
 	"vendors/RageUI/menu/windows/*.lua",
-
+	
+    '@ox_lib/init.lua',
     "client/**/*.lua",
     "config.lua"
 }
